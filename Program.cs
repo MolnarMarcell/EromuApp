@@ -63,7 +63,7 @@ foreach (var elem in lista)
 {
     if (elem is Szelgenerator sz)
     {
-        Console.WriteLine(sz.Azonosito + " szélgenerátor toronymagassága \t" + sz.Toronymagassag + " m");
+        Console.WriteLine(" - \t" + sz.Azonosito + " szélgenerátor toronymagassága:\t" + sz.Toronymagassag + " m");
     }
 }
 
